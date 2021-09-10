@@ -5,6 +5,8 @@ terraform {
   }
 }
 
+provider "aws" {}
+
 module "shared_lambda" {
   source = "git@github.com:StevenWolfe/terraform-aws-lambda-issue.git//terraform/modules/shared_module"
 }
