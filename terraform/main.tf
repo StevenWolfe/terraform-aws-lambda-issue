@@ -6,5 +6,5 @@ terraform {
 }
 
 module "shared_lambda" {
-  source =
+  source = "StevenWolfe/terraform-aws-lambda-issue//terraform/modules/shared_module"
 }
